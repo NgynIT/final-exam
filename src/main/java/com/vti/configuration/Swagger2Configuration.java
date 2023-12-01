@@ -19,14 +19,14 @@ public class Swagger2Configuration {
     public Docket docket() {
         final Contact contact = new Contact(
                 "Final4",
-                "https://www.facebook.com/fianl4",
-                "final4@gmail.com"
+                "https://www.facebook.com/nis.110902",
+                "nkockik@gmail.com"
         );
         final ApiInfo apiInfo = new ApiInfo(
                 "KShop Application",
                 "This is a final exam for Advanced Java course",
                 "1.0.0",
-                "https://github.com/khoa-omega/java-advanced",
+                "https://github.com/NgynIT/final-exam",
                 contact,
                 "Apache 2.0",
                 "http://www.apache.org/licenses/LICENSE-2.0.html",
